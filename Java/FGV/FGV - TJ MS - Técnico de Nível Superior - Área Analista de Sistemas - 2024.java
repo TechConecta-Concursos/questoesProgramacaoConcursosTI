@@ -30,6 +30,7 @@ public class Main {
 }
 
 /*
+Comentário:
 Vamos por parte. Identificamos que se trata de Recursividade. Podemos olhar esse assunto como uma estrutura de repetição, pois
 essa função irá se repetir até a condição do if for verdadeira. A questão passou como parâmetro da função os inteiros 49 e 72.
 Basicamente, o que temos que fazer é ir de repetição em repetição. Na primeira repetição temos x = 49 e y = 72, y não é igual a 0
@@ -37,3 +38,45 @@ então iremos para o else, onde está sendo inserido novos valores na função, 
 bastante interessante o aluno saber como funciona o operador %. Tivemos como parâmetro do y o cálculo entre 49 % 72, ou seja,
 o resto entre essa divisão, que seria 49, pois o dividendo (49) é menor que o divisor (72). Desse modo, já na segunda repetição, o
 y ainda não é 0, e no else temos como parâmetro da função x = 49 e y = 1
+
+Comentário gerado por IA:
+A função fornecida é uma implementação do algoritmo de Euclides, que calcula o máximo divisor comum (MDC) entre dois números. O processo de cálculo é feito recursivamente, trocando os valores de `x` e `y` e reduzindo `y` com o resto da divisão de `x` por `y`, até que `y` se torne zero.
+
+Vamos seguir o passo a passo da execução para `funcao(49, 72)`:
+
+1. **Primeira chamada:** `funcao(49, 72)`
+   - `y != 0`, então a função retorna `funcao(72, 49 % 72)`.
+   - Calculando `49 % 72` → Resto = 49 (pois 49 é menor que 72).
+   - Resultado: `funcao(72, 49)`
+
+2. **Segunda chamada:** `funcao(72, 49)`
+   - `y != 0`, então a função retorna `funcao(49, 72 % 49)`.
+   - Calculando `72 % 49` → Resto = 23.
+   - Resultado: `funcao(49, 23)`
+
+3. **Terceira chamada:** `funcao(49, 23)`
+   - `y != 0`, então a função retorna `funcao(23, 49 % 23)`.
+   - Calculando `49 % 23` → Resto = 3.
+   - Resultado: `funcao(23, 3)`
+
+4. **Quarta chamada:** `funcao(23, 3)`
+   - `y != 0`, então a função retorna `funcao(3, 23 % 3)`.
+   - Calculando `23 % 3` → Resto = 2.
+   - Resultado: `funcao(3, 2)`
+
+5. **Quinta chamada:** `funcao(3, 2)`
+   - `y != 0`, então a função retorna `funcao(2, 3 % 2)`.
+   - Calculando `3 % 2` → Resto = 1.
+   - Resultado: `funcao(2, 1)`
+
+6. **Sexta chamada:** `funcao(2, 1)`
+   - `y != 0`, então a função retorna `funcao(1, 2 % 1)`.
+   - Calculando `2 % 1` → Resto = 0.
+   - Resultado: `funcao(1, 0)`
+
+7. **Sétima chamada:** `funcao(1, 0)`
+   - `y == 0`, então a função retorna `x`, que é `1`.
+
+### Resultado Final
+A função retorna `1`, que é o MDC de 49 e 72.
+*/
