@@ -1,0 +1,11 @@
+{
+  "linguagem": "java",
+  "banca": "fgv",
+  "tipo": "saida",
+  "assunto": [
+    "recursividade"
+  ],
+  "cargo": "analista",
+  "orgao": "tj-ms",
+  "nivel": "superior"
+}
