@@ -30,15 +30,6 @@ public class Main {
 }
 
 /*
-Comentário:
-Vamos por parte. Identificamos que se trata de Recursividade. Podemos olhar esse assunto como uma estrutura de repetição, pois
-essa função irá se repetir até a condição do if for verdadeira. A questão passou como parâmetro da função os inteiros 49 e 72.
-Basicamente, o que temos que fazer é ir de repetição em repetição.
-1-Na primeira repetição temos x = 49 e y = 72, y não é igual a 0 então iremos para o else, onde está sendo inserido novos valores na função,
-onde x = 72 e y = 49, pois além de Recursividade, seria bastante interessante o aluno saber como funciona o operador %. Tivemos como
-parâmetro do y o cálculo entre 49 % 72, ou seja, o resto entre essa divisão, que seria 49, pois o dividendo (49) é menor que o divisor (72).
-2-Já na segunda repetição, o y ainda não é 0, e no else temos como parâmetro da função x = 49 e y = 1
-
 Comentário gerado por IA:
 A função fornecida é uma implementação do algoritmo de Euclides, que calcula o máximo divisor comum (MDC) entre dois números.
 O processo de cálculo é feito recursivamente, trocando os valores de `x` e `y` e reduzindo `y` com o resto da divisão de `x` por `y`,
