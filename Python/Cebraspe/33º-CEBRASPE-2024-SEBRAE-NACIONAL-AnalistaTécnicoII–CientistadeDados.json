@@ -1,0 +1,11 @@
+{
+    "linguagem": "python",
+    "banca": "cebraspe",
+    "tipo": "saida",
+    "assuntos": [
+      "regex"
+    ],
+    "cargo": "analista",
+    "orgao": "sebrae",
+    "nivel": "superior"
+  }
