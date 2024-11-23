@@ -1,0 +1,27 @@
+public class Main {
+
+public static void main(String[] args) {
+
+ int x = 0;
+
+ System.out.println("Resultado");
+
+ while (x < 7) {
+
+  if (x%2 != 1) {
+
+   ++x;
+
+   continue;
+
+  }
+
+  System.out.println(x);
+
+  ++x;
+
+  }
+
+ }
+
+}
