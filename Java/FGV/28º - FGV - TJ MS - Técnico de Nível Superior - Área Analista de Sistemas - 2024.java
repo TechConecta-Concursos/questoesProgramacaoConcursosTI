@@ -11,7 +11,7 @@ public static int funcao(int x, int y) { // Função que recebe dois inteiros e 
 */
 
 // O retorno da chamada funcao(49, 72) é:
-//A) 1  B) 2  C) 3  D) 7  E) 9
+// A) 1  B) 2  C) 3  D) 7  E) 9
 
 // Resolução:
 // O código do enunciado foi inserido em uma classe para visualização do resultado
