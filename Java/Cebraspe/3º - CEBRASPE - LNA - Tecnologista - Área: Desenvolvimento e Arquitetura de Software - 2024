@@ -12,9 +12,10 @@ public class Main {
   }
  }
 }
-/* 
+/* Enunciado: 
 Considerando que o código precedente tenha sido desenvolvido em Java, assinale a opção em que é apresentado o resultado esperado
 ao final de sua execução.
+
 A) Resultado
    0
    2
