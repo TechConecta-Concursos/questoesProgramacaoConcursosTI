@@ -1,0 +1,38 @@
+public class Main {
+ public static void main(String[] args) {
+  int x = 0;
+  System.out.println("Resultado");
+  while (x < 7) {
+   if (x%2 != 1) {
+    ++x;
+    continue;
+   }
+   System.out.println(x);
+   ++x;
+  }
+ }
+}
+/* 
+Considerando que o código precedente tenha sido desenvolvido em Java, assinale a opção em que é apresentado o resultado esperado
+ao final de sua execução.
+A) Resultado
+   0
+   2
+   4
+   6
+B) Resultado
+   1
+C) Resultado
+   1
+   3
+   5
+D) Resultado
+   0
+   2
+   3
+   4
+   5
+   6
+E) Resultado
+   0
+   1
