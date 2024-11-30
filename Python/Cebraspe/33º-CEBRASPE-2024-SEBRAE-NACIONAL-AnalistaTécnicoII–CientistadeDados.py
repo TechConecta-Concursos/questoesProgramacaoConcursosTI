@@ -1,10 +1,10 @@
-"""
-Link da questão: https://www.qconcursos.com/questoes-de-concursos/questoes/6cb1eb80-76
-
 import re
 text = "Inteligencia      artificial generativa&#10;Promoc"
 clean_text = re.sub(r'\d', ' ', text)
 print(clean_text)
+
+"""
+Link da questão: https://www.qconcursos.com/questoes-de-concursos/questoes/6cb1eb80-76
 
 Considerando o código precedente, escrito em Python, assinale a opção que corresponde à sua correta execução.
 
@@ -16,11 +16,6 @@ C) Inteligencia artificial generativa#;Promoc
 D) Inteligencia artificial generativa Promoc
 
 """
-
-import re
-text = "Inteligencia      artificial generativa&#10;Promoc"
-clean_text = re.sub(r'\d', ' ', text)
-print(clean_text)
 
 """ Comentário humano
 Essa questão testa conhecimentos relacionados a biblioteca re do python que trata do uso de expressões regex para extração de texto em strings. 
