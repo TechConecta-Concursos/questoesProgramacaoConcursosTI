@@ -1,0 +1,11 @@
+{
+  "linguagem": "java",
+  "banca": "cebraspe",
+  "tipo": "saida",
+  "assuntos": [
+    "polimorfismo"
+  ],
+  "cargo": "tecnico",
+  "orgao": "tj-dft",
+  "nivel": "medio"
+}
