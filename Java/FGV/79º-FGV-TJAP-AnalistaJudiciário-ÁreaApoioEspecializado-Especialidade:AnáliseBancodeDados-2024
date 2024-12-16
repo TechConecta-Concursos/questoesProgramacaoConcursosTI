@@ -1,0 +1,14 @@
+public class MyClass {
+  public static void main(String args[]) {
+    Map<String, String> cidades =
+    Map.of("11","Amapá","13","Itaubal","15","Cutias");
+    String texto =
+    cidades.entrySet().stream().sorted(
+        (e1, e2) -> e1.getKey().compareTo(e2.getKey()))
+        .map(e-> Arrays.asList(e.getKey(), e.getValue()))
+        .map(e-> String.join(", ", e))
+        .collect(Collectors.joining(": "));
+    
+    System.out.println(texto);
+  }
+}
