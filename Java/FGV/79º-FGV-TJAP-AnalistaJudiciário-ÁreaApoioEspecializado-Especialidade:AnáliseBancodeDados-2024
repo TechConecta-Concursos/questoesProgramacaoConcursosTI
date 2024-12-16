@@ -1,3 +1,28 @@
+/* Enunciado:
+Considere o seguinte código em Java:
+
+Map<String, String> cidades =
+Map.of("11","Amapá","13","Itaubal","15","Cutias");
+String texto =
+  cidades.entrySet().stream().sorted(
+     (e1, e2) -> e1.getKey().compareTo(e2.getKey()))
+    .map(e-> Arrays.asList(e.getKey(), e.getValue()))
+    .map(e-> String.join(", ", e))
+    .collect(Collectors.joining(": "));
+
+System.out.println(texto);
+
+Ao ser executado com as importações necessárias, o código Java
+acima imprime na saída padrão:
+
+A) Cutias: 15, Amapá: 11, Itaubal: 13
+B) Amapá: 11, Cutias: 15, Itaubal: 13
+C) 11, Amapá: 13, Itaubal: 15, Cutias
+D) 11: Amapá, 13: Itaubal, 15: Cutias
+E) 15: Cutias, 13: Itaubal, 11: Amapá
+*/
+
+// Código para ser executado:
 public class MyClass {
   public static void main(String args[]) {
     Map<String, String> cidades =
@@ -12,3 +37,5 @@ public class MyClass {
     System.out.println(texto);
   }
 }
+
+
