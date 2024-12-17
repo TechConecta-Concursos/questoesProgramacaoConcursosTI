@@ -42,9 +42,17 @@ public class MyClass {
 Para a resolução desse código, vamos analisar posso a passo:
 1: Declaração do Mapa
 Map<String, String> cidades = Map.of("11","Amapá","13","Itaubal","15","Cutias");
--O Map nada mais é do que um array turbinado de índices e valores.
+-O Map nada mais é do que um array turbinado de índices e valores. Cada par será o índice e valor, exatamente nessa ordem.
 -Nesse caso específico, o Map.of mapeou os elementos da seguinte maneira:
   Índice: 11, Valor: Amapá
   Índice: 13, Valor: Itaubal
   Índice: 15, Valor: Cutias
+
+2: Criação do Stream
+cidades.entrySet().stream()
+-O método entrySet() retorna um conjunto contendo todos os pares chave-valor do mapa.
+-O método stream() converte esse conjunto em um fluxo (Stream) para manipulação.
+-Ou seja, essa linha basicamente prepara os índices e valores para manipulação.
+
+3: Ordenação do Stream
 */
