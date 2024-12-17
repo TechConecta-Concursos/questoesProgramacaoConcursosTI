@@ -38,4 +38,13 @@ public class MyClass {
   }
 }
 
-
+/* Comentário:
+Para a resolução desse código, vamos analisar posso a passo:
+1: Declaração do Mapa
+Map<String, String> cidades = Map.of("11","Amapá","13","Itaubal","15","Cutias");
+-O Map nada mais é do que um array turbinado de índices e valores.
+-Nesse caso específico, o Map.of mapeou os elementos da seguinte maneira:
+  Índice: 11, Valor: Amapá
+  Índice: 13, Valor: Itaubal
+  Índice: 15, Valor: Cutias
+*/
