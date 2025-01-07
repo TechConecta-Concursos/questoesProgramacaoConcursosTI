@@ -1,5 +1,5 @@
 # Questões de programação para concursos
-Esse repositório contém questões de programação dos últimos concursos das principais bancas da atualidade como, por exemplo, Cebraspe e Cesgranrio. 
+Esse repositório contém questões de programação dos últimos concursos das principais bancas da atualidade como, por exemplo, Cebraspe e Cesgranrio. Cada questão possui o código e sua resolução com comentário humano e feito por IA.
 
 As questões que estão nesse repositório possuem um código no enunciado e o resultado (saída) está entre as alternativas. Elas estão separadas por linguagem de programação e por banca. 
 
