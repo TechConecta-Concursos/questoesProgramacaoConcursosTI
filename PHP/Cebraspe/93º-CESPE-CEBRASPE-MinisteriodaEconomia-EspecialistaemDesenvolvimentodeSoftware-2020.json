@@ -1,0 +1,11 @@
+{
+    "linguagem": "php",
+    "banca": "cebraspe",
+    "tipo": "saida",
+    "assuntos": [
+      "passagem_referencia"
+    ],
+    "cargo": "analista",
+    "orgao": "ministerio_economia",
+    "nivel": "superior"
+ }
