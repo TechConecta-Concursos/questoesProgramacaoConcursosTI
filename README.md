@@ -3,7 +3,7 @@ Esse repositório contém questões de programação dos últimos concursos das 
 
 As questões que estão nesse repositório possuem um código no enunciado e o resultado (saída) está entre as alternativas. Elas estão separadas por linguagem de programação e por banca. 
 
-No momento, não estamos resolvemos questões que possuam diversos códigos nas alternativas, tampouco questões que cobrem conceitos ou sintaxe de linguagens de programação.
+No momento, não estamos resolvendo questões que possuam diversos códigos nas alternativas, tampouco questões que cobrem conceitos ou sintaxe de linguagens de programação.
 
 Todos os códigos estão prontos para serem executados, basta copiar o conteúdo do código fonte e executá-lo em uma IDE de preferência. Sugerimos a execução a partir das IDEs online que recomendamos no README de cada linguagem.
 
