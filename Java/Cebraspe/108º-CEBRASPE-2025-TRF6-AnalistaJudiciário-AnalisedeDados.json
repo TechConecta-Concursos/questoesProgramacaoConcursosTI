@@ -1,0 +1,12 @@
+{
+  "linguagem": "java",
+  "banca": "cebraspe",
+  "tipo": "saida",
+  "assuntos": [
+    "estrutura_repeticao",
+    "for_each"
+  ],
+  "cargo": "analista",
+  "orgao": "TRF",
+  "nivel": "superior"
+}
